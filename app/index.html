@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<title>Scriptar</title>
+<script src="script/jquery.js"></script>
+<script src="script/script.js">
+ 
+</script>
+
+
+<style>
+  body{
+   margin:0px;
+   background-image:url('images/background.jpg');
+   background-size:cover;
+   background-position:center;
+  }
+  #contenido{
+   height:100%;
+   width:100%;
+   overflow:hidden;
+   
+   
+  }
+  
+  #archivo{
+    opacity:.8;
+    width:200px;
+	height:30px;
+	background:gray;
+	overflow:hidden;
+	position:relative;
+	padding-top:5px;
+	font-family:calibri;
+	-webkit-transition:ease .5s all;
+	margin:0 auto 0 auto;
+	margin-top:10px;
+	position:relative;
+	top:80px;
+  }
+  #archivo:hover{
+    background:#2abb79;
+	-webkit-transition:ease .5s all;
+	color:white;
+  }
+  #file{
+  height:30px;
+  width:200px;
+  opacity:0px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  opacity:0;
+  }
+</style>
+</head>
+<body>
+
+	<div id="contenido">
+      
+         <div id="archivo"  align="center">
+		 <label>Archivo</label>
+		 <input type="file" id="file" accept="file_extension|*.rar">
+		 </div>
+		 
+	</div>
+
+<body>
+
+
+</html>
